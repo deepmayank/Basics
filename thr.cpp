@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
-{
+{ // pyramid pattern
     int i,j,m,n;
     cout << "enter the value of no of rows\n";
     cin >> m;
