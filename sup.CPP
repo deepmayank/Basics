@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>//only positive integer 
 using namespace std;
 
 int dectobin(int num)
@@ -41,11 +41,11 @@ int main()
     cin >> num;
 
     if (i==1)
-    { cout <<" you choose " <<i << " = Binary to Decimal/n" << endl;
+    { cout <<" you choose " <<i << " = Binary to Decimal\n" << endl;
         cout << bintodec(num) << endl; }
     
      else if(i==2)
-       { cout << "you choose "<< i << " = Decimal to Binary/n" << endl;
+       { cout << "you choose "<< i << " = Decimal to Binary\n" << endl;
         cout << dectobin(num) << endl;}
     
     return 0;
